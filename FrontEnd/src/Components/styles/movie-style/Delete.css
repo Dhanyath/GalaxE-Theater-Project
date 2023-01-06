@@ -1,0 +1,158 @@
+.delete-main-container{
+    width: 100vw; 
+    height: 100vh;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    position: relative;
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    background-color:  rgba(142, 139, 139, 0.4);
+    z-index: 1000;
+}
+
+
+.delete-exact{
+    margin-top: 8rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.delete-main{
+    width: 350px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #282c34;
+    border-radius: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #eeeff0;
+}
+.delete-container{
+    margin-top: 0rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    background-color:  #282c34;
+    border:none;
+    height: max-content;
+    width: max-content;
+    position: relative;
+}
+.delete-buttonActive{
+    height: 40px;
+    width: 100px;
+    /* padding: 1rem 3.5rem; */
+    margin: 1rem;
+    background-color: #EB4E62;
+    color: #eeeff0;
+    font-size: large;
+    border:none;
+    border-radius: 18px;
+}
+.nobutton{
+    border: none;
+    color: #EB4E62;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    background-color: #282c34;
+}
+.buttonNotActive{
+    padding: 1rem 3.5rem;
+    margin: 1rem 2rem;
+    background-color:#eeeff0 ;
+    color: #EB4E62;
+    font-size: large;
+    border:1px #EB4E62 solid;
+    border-radius: 18px;
+}
+.inputText{
+    border: black 1px solid;
+    justify-content: flex-end;
+    border-radius: 18px;
+    padding: 0.5rem 0.8rem 0.5rem 3rem;
+    width: 14rem;
+    
+}
+.select1{
+    padding-right: 4rem;
+}
+.text{
+    color:whitesmoke ;
+    font-size: medium;
+    padding:0;
+    margin: 0;
+    text-align: left;
+}
+.text1{
+    color: #EB4E62;
+    font-size: medium;
+    text-align: right;
+    display: block;
+}
+.flex{
+    display: flex;
+    justify-content: end;
+}
+.delete-flex-v{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2rem;
+}
+.padding-l{
+    padding-left: 2rem;
+}
+.paddingbutton{
+    padding-bottom: 0;
+}
+.paddingtext{
+    padding-top: 0;
+    margin-top: 0;
+
+}
+@media screen and (max-width:540px){
+    .flex{
+        display: flex;
+        flex-direction: column;
+        padding-top: 0.5rem;
+    }
+    .text{
+        color: black;
+    font-size: medium;
+    padding-bottom:0.5rem;
+    margin: 0;
+    text-align: left;
+    }
+    
+}
+.delete1{
+     font-size: larger;
+     margin-bottom: 10%;
+}
+
+.delete{
+    display:flex;
+    justify-content: center;
+    margin-top: 10%;
+
+
+}
+.delbtn{
+    background-color:#eb4e62;
+    color:#fef7f8;
+    border-radius: 15px;
+    height: 5ch;
+    width: 15ch;
+}

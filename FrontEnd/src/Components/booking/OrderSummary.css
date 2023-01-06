@@ -1,0 +1,146 @@
+.order_summary_main_container {
+  height: 24rem;
+  width: 18rem;
+  background-color: #fff;
+  color: rgb(17, 17, 17);
+  box-shadow: 0 0 0.5rem rgb(0, 0, 0);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.order_summary_main_top {
+  display: flex;
+  justify-content: space-between;
+  width: 18rem;
+  height: 4rem;
+  padding: 1rem;
+}
+
+.order_summary_heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.order_summary_heading h4 {
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  color: grey;
+}
+
+.order_summary_ticket {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.order_summary_movie_details {
+  position: relative;
+  height: 12.5rem;
+  width: 18rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.order_summary_movie_name {
+  width: 15rem;
+}
+
+.order_summary_movie_name {
+  font-size: 1.5rem;
+}
+
+.order_summary_movie_language h6,
+.order_summary_movie_language h6,
+.order_summary_theater_address h6 {
+  font-weight: 400;
+  font-size: 0.75rem;
+  padding: 0.3rem 0;
+  color: grey;
+}
+
+.order_summary_seat_details {
+  padding-top: 0.3rem;
+  font-size: 1.1rem;
+  line-height: 1rem;
+}
+
+.order_summary_sub_total,
+.order_summary_main_convenience_fees,
+.order_summary_main_amount_payable {
+  display: flex;
+  justify-content: space-between;
+  width: 18rem;
+  height: 2.5rem;
+  padding: 1rem;
+  align-items: center;
+}
+
+.order_summary_sub_total h6:first-child {
+  font-weight: 400;
+  color: grey;
+  font-size: 0.8rem;
+}
+
+.order_summary_sub_total h6:nth-child(2) {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.order_summary_main_convenience_fees h6:first-child {
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.order_summary_main_convenience_fees h6:nth-child(2) {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.order_summary_main_amount_payable h6:first-child {
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+.order_summary_main_amount_payable h6:nth-child(2) {
+  font-size: 1.5rem;
+}
+
+.order_summary_main_amount_payable {
+  background-color: #fffcdc;
+}
+
+.buttonClassCancel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 105%;
+  transform: translate(-50%);
+  height: 2rem;
+  width: 10rem;
+  border-radius: 0.5rem;
+  border: 0.01rem solid black;
+  background-color: #f84464;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
+}

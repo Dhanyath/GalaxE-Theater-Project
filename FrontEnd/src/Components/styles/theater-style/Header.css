@@ -1,0 +1,72 @@
+#Logo {
+  width: 6%;
+  margin-left: 2%;
+  flex: 0.02;
+}
+.Headers {
+  color: white;
+}
+.Box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  width:100% ;
+}
+.navs {
+  display: flex;
+  flex: 0.4;
+  justify-content: space-between;
+  margin-left: 2%;
+  color: white;
+}
+.user {
+  flex: 0.3;
+  text-align: right;
+  align-items: center;
+  justify-content: space-between;
+}
+.flexer {
+  display: flex;
+}
+.username {
+  margin-top: 15%;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+}
+.movieIcon {
+  width: 20%;
+}
+.theaterIcon {
+  width: 20%;
+}
+.theater {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+}
+.movie {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+}
+.movieNav {
+  margin-top: 5%;
+  margin-left: 10%;
+  font-weight: 600;
+  font-size: 20px;
+  width: 100%;
+}
+.theaterNav {
+  margin-top: 5%;
+  margin-left: 10%;
+  font-weight: 600;
+  font-size: 20px;
+}
+.avatarWrapper {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  margin-right: 4%;
+}

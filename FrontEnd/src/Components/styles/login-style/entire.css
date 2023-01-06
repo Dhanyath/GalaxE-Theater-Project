@@ -1,0 +1,810 @@
+/* Start of Login page CSS */
+.signup-up {
+    position: fixed;
+}
+.signup-user-container {
+    background-color: #000528;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    padding: 3%;
+}
+
+.signup-user-container .buttons {
+    border: 0;
+    display: flex;
+    width: 70%;
+    text-align: center;
+    height: 6vh;
+    border-radius: 5px;
+}
+
+.signup-user-container .buttons button {
+    border: 0;
+    margin-left: 25%;
+    display: flex;
+    margin-right: 10%;
+    width: 30%;
+    height: 9vh;
+    border-radius: 5px;
+    align-items: center;
+    padding-left: 10%;
+}
+
+.signup-user-container .buttons .second a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: large;
+}
+#email,
+#password {
+    background-color: #ffffff;
+}
+
+.signup-user-container form {
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    width: 80%;
+    height: 70%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: white;
+}
+.signup-user-container .buttons .first {
+    margin-right: -9%;
+    background-color: #ff2c2c;
+}
+
+.signup-user-container .buttons .second {
+    margin-right: -9%;
+}
+
+.signup-user-container .buttons .first a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: large;
+}
+.login-submit {
+    margin-top: 7%;
+    border: 0;
+    background-color: #333545;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* End of Login page CSS */
+
+/* 
+  Start of SignUp Page */
+
+/* End of Signup CSS */
+
+/* Start of Email verfication */
+.Emailver {
+    background-color: #333545;
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    align-items: center;
+}
+
+.Eemail {
+    background-color: white;
+    position: absolute;
+    min-width: 35%;
+    height: 45%;
+    border-radius: 10px;
+    margin-top: 15%;
+    margin-left: 33%;
+    align-items: center;
+}
+
+.Elabel1 {
+    display: block; /* add this */
+
+    margin-left: 12.5rem;
+    position: absolute;
+    top: 7px;
+}
+
+.Elabel2 {
+    margin-top: 2%;
+    min-width: 50%;
+    margin-left: 24.5%;
+    height: 1.8rem;
+}
+
+.Ebutton1 {
+    margin-top: 4%;
+    border-radius: 6px;
+    min-width: 20%;
+    background-color: #ff2c2c;
+    margin-left: 37%;
+    height: 13%;
+}
+
+.Elabel3 {
+    margin-left: 24.5%;
+    margin-top: 5%;
+    width: 50%;
+    height: 13%;
+}
+.Elabel4 {
+    margin-left: 24%;
+    margin-top: 0.5rem;
+    display: block;
+    border-radius: 0.5rem;
+    height: 15%;
+    width: 90px;
+}
+.Ebutton2 {
+    border-radius: 0.5rem;
+    /* position: absolute;
+  left: 249px;
+  top: 170.5px; */
+    display: block;
+    border-radius: 0.5rem;
+    margin-left: 16rem;
+    margin-top: -2.5rem;
+    width: 90px;
+    height: 15%;
+}
+
+.atag {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* End of Email Verfication */
+
+/* Start of Settings Account details */
+.SEfull {
+    background-color: #333545;
+    height: fit-content;
+    width: 100%;
+    position: relative;
+}
+
+.SEaccount {
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 20%;
+    border-radius: 10px;
+}
+
+.SEstart {
+    background-color: rgb(248, 68, 100);
+    width: 100%;
+    border-radius: 10px;
+    text-align: left;
+    height: 70px;
+}
+
+.SEdetails {
+    margin-left: 2%;
+    margin-top: 5%;
+    width: 29rem;
+}
+
+.SEdetails h5 {
+    margin-top: -1%;
+    margin-left: 2rem;
+}
+
+.SEemail {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.SEemail input {
+    width: 100%;
+    opacity: 0.5;
+    height: 2rem;
+}
+
+.SEmobile {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.SEmobile input {
+    width: 58%;
+    opacity: 0.5;
+    height: 2rem;
+}
+
+.SEperson {
+    width: 60%;
+    background-color: rgb(250, 250, 250);
+    margin-left: 20%;
+    border-radius: 10px;
+    padding-top: 2%;
+    margin-top: 3%;
+    margin-left: 20%;
+    height: 60vh;
+}
+
+.SEperson button {
+    position: absolute;
+    top: 52%;
+    left: 45%;
+}
+
+.SEperson #SEedit {
+    position: absolute;
+    top: 88%;
+    left: 40%;
+}
+
+.SEperson h5 {
+    margin-left: 2rem;
+}
+
+.SEfirstname label {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.SEperson #logOut {
+    position: absolute;
+    top: 88%;
+    left: 50%;
+}
+
+.SEfirstname input {
+    width: 60%;
+    opacity: 0.5;
+    margin-left: 2rem;
+    height: 2rem;
+}
+
+.SElastname label {
+    margin-left: 2rem;
+    margin-top: 2%;
+}
+
+.SElastname input {
+    width: 60%;
+    opacity: 0.5;
+    margin-left: 2rem;
+
+    height: 2rem;
+}
+
+.SEbirthday label {
+    margin-left: 2rem;
+    margin-top: 4%;
+}
+
+.SEbirthday input {
+    width: 62%;
+    opacity: 0.5;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    height: 2rem;
+}
+
+.SEgender {
+    margin-left: 2rem;
+    margin-top: 4%;
+    width: 70rem;
+}
+
+.SEgender select {
+    width: 10%;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.SEmarried {
+    margin-left: 14rem;
+    margin-top: -6.5%;
+}
+
+.SEmarried select {
+    width: 14%;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.SEpassword {
+    border-radius: 10px;
+    width: 60%;
+    background-color: rgb(255, 248, 248);
+    margin-left: 20%;
+    border-radius: 10px;
+    padding-top: 2%;
+    margin-top: 3%;
+    margin-left: 20%;
+    height: 61vh;
+}
+.SEpassword button {
+    position: absolute;
+    top: 86%;
+    left: 45%;
+}
+
+.SEdelete {
+    border-radius: 10px;
+    width: 60%;
+    background-color: rgb(255, 248, 248);
+    margin-left: 20%;
+    border-radius: 10px;
+    padding-top: 2%;
+    margin-top: 3%;
+    margin-left: 20%;
+    height: 11vh;
+    text-align: center;
+    align-items: center;
+}
+
+.SEpassword h5 {
+    margin-left: 2rem;
+}
+
+.SEcurrent label {
+    margin-left: 2rem;
+    margin-top: 1%;
+}
+
+.SEcurrent input {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    height: 2rem;
+}
+
+.SEnew label {
+    margin-left: 2rem;
+    margin-top: 1%;
+}
+
+.SEnew input {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    height: 2rem;
+}
+
+.SEconfirm label {
+    margin-left: 2rem;
+    margin-top: 5px;
+}
+
+.SEconfirm input {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    height: 2rem;
+}
+
+.SEconfirm p {
+    color: beige;
+    margin-top: 3%;
+}
+/* @media (min-width: 460px) {}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}
+
+@media (max-width: 575.98px) {}
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 1199.98px) {}
+
+@media (max-width: 1399.98px) {} */
+
+/* End of Account setting details */
+
+/* Start of Reset password */
+body {
+    background-color: #333545;
+}
+#fexternaldiv {
+    border-color: #ff2c2c;
+    width: 40%;
+    height: 70vh;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 24rem;
+}
+
+#fform {
+    margin-top: 5rem;
+    width: 20rem;
+    height: 18rem;
+    background-color: #fefbff;
+    border-radius: 5%;
+}
+
+.finput1 {
+    border-radius: 9%;
+    height: 10%;
+    width: 70%;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+
+.finput2 {
+    border-radius: 9%;
+    height: 10%;
+    width: 70%;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+
+.forminput2 {
+    border-radius: 9%;
+    height: 10%;
+    width: 10%;
+    margin-left: 20%;
+    margin-top: 50%;
+}
+
+#fform button {
+    border-radius: 9%;
+    height: 10%;
+    width: 30%;
+    background-color: rgb(248, 68, 100);
+
+    color: white;
+    margin-top: 2.5rem;
+    margin-left: 7rem;
+}
+
+/* End of Reset passowrd */
+
+/* Start of Signup as admin */
+.Sfull {
+    width: 100%;
+    padding-bottom: 5%;
+    height: fit-content;
+    background-color: #000528;
+}
+
+.Sfirst {
+    margin-left: 32%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 10%;
+    border-radius: 5px;
+    background-color: #ffffff;
+    height: 2rem;
+}
+
+.Ssecond {
+    margin-left: 16%;
+    width: 10%;
+    border-radius: 5px;
+    height: 2rem;
+    background-color: #ff2c2c;
+}
+.Ssecond a {
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: large;
+}
+
+.Sdetails {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+    width: 80%;
+    min-height: fit-content;
+    border-radius: 10px;
+}
+.Sfirst a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: large;
+}
+
+.Sdetails h4 {
+    padding-top: 3%;
+    color: #ff2c2c;
+}
+
+.admin-register-submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-register-submit button {
+    color: white;
+    font-weight: 600;
+    background-color: #333545;
+    border: 0;
+    width: 15%;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+.admin-register-submit button:hover {
+    color: #222;
+    background-color: #ff2c2c;
+    border: 0.5px dotted #333545;
+}
+
+/* End of Signup as admin */
+.flex-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-item-single {
+    margin: auto;
+    margin-top: 15px;
+    min-width: 40%;
+}
+.flex-item-single input,
+.flex-item-single select {
+    min-width: 100%;
+    height: 30px;
+    border: 0.5px solid #33354550;
+    border-radius: 3px;
+}
+
+#emailLabel,
+#passwordLabel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#forgetDiv {
+    margin-top: 10px;
+    margin-left: 250px;
+}
+
+.login-submit {
+    margin-left: 8%;
+    width: 20%;
+    height: 30px;
+}
+
+/* Start of header css */
+
+.header-logo {
+    text-align: left;
+    width: 7rem;
+    height: 7rem;
+    display: flex;
+    padding-left: 2.5rem;
+}
+.header-main {
+    background-color: #333545;
+    width: max-content;
+    /* height: 6.5rem; */
+    align-items: center;
+    display: flex;
+    z-index: 20;
+    /* position: fixed; */
+
+    /* position: fixed; */
+}
+.header-logo1 {
+    text-align: left;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    padding-left: 10rem;
+}
+.header-logo2 {
+    text-align: left;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    padding-left: 10rem;
+}
+.header-admin {
+    padding-left: 35rem;
+    flex: 10rem;
+    text-decoration: none;
+    padding-right: 7rem;
+    color: aliceblue;
+}
+.header-finalmain {
+    width: 100vw;
+    color: aliceblue;
+}
+
+/* End of header css */
+
+/***    Landing Page     ***/
+.admin-landing {
+    background-color: #000;
+    height: 100vh;
+    position: fixed;
+    width: 100vw;
+}
+.main-title,
+.main-para {
+    color: #f1f1f1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.main-title {
+    padding-top: 10rem;
+    font-size: 5rem;
+    font-family: "Fascinate", cursive;
+    text-transform: uppercase;
+}
+
+.main-para {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
+
+#reg_btn span {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#reg_btn {
+    width: 190px;
+}
+
+#reg_btn span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.admin_button {
+    margin-left: 35%;
+}
+
+.text-center {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+/* #reg_btn:hover span {
+  padding-right: 25px;
+} */
+
+/* #reg_btn:hover span:after {
+  opacity: 0.1;
+  right: 0;
+} */
+.nav-header {
+    min-width: 100%;
+    min-height: 20vh;
+    background-color: rgb(51, 53, 69);
+}
+
+/***    General     ***/
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.m-5-auto {
+    margin: 5rem auto;
+}
+
+.primary-button {
+    margin-top: 5rem;
+    margin-right: 1rem;
+    padding: 0.6rem;
+    width: 10rem;
+    min-width: fit-content;
+    background: #222;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: all 0.5s;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.primary-button:hover {
+    background-color: #ec7878;
+}
+/* End of admin landing page */
+
+/* start of popup css */
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+h1 {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.RegisterSuccess {
+    position: fixed;
+}
+.RegisteredFailed {
+    position: fixed;
+}
+.RegisteredFailed h1 {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: #ff2c2c;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.popupPage {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popupWindow {
+    background-color: white;
+    max-width: fit-content;
+    max-height: 45%;
+    padding: 20px;
+    padding-bottom: -20px;
+    border-radius: 5px;
+}
+
+.popupWindow p {
+    color: rgb(56, 129, 0);
+}
+
+.success-buttons button {
+    margin: 10px;
+    background-color: #333545;
+    color: #fff;
+    font-weight: 500;
+    font-size: large;
+    border: 0;
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+}
+.success-buttons button:hover {
+    color: #333545;
+    background-color: #ff2c2c;
+}
+
+.cancel {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 0.1px solid black;
+    font-family: "Acme", sans-serif;
+}
+
+.cancel:hover {
+    color: white;
+    background-color: rgb(248, 68, 100);
+}
+
+/* end of popup css */

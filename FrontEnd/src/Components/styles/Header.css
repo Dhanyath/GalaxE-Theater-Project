@@ -1,0 +1,47 @@
+.header-logo{
+    text-align: left;
+    width: 7rem;
+    height:7rem;
+    display: flex;
+    padding-left: 2.5rem;
+}
+/* .header-finalmain{
+    
+} */
+.header-main{
+    background-color:#333545;
+    width:max-content;
+    height: 4.5rem;
+    align-items: center;
+    display: flex;
+    /* position: fixed; */
+    
+    
+    /* position: fixed; */
+}
+.header-logo1{
+    text-align: left;
+    width: 3rem;
+    height:3rem;
+    display: flex;
+    padding-left: 10rem;
+  
+}
+.header-logo2{
+    text-align: left;
+    width: 3rem;
+    height:3rem;
+    display: flex;
+    padding-left: 10rem;
+}
+.header-admin{
+    padding-left: 35rem;
+    flex: 10rem;
+    text-decoration: none;
+    padding-right: 7rem;
+    color: aliceblue;
+}
+.header-finalmain{
+    width: 100vw;
+    color: aliceblue;
+}

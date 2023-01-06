@@ -1,0 +1,577 @@
+.fandb-bodymain-default {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 90%;
+  /* gap: 7px;
+    padding: 7px; */
+  padding-right: 0.8rem;
+  background-color: #fffdfa;
+  /* position: relative; */
+}
+
+.fandb-body-left1 {
+  height: auto;
+  /* padding: 7px; */
+  /* width:120%;
+    margin-left: 30px; */
+  background-color: white;
+  border: 5px solid white;
+  box-shadow: 0 0 2px grey;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+.fandb-body-right {
+  height: fit-content;
+  padding: 7px;
+  background-color: #ffff;
+  border: 5px solid white;
+  box-shadow: 0 0 2px grey;
+  border-radius: 3px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  width: 22rem;
+}
+
+.fandb-adcard-display img {
+  height: 6rem;
+  width: 100%;
+  border: 5px solid white;
+  box-shadow: 0 0 2px grey;
+}
+
+.fandb-title-bar {
+  display: none;
+  height: 5rem;
+  text-align: center;
+  font-family: Verdana;
+}
+.fandb-title-bar p {
+  font-weight: 500;
+  font-family: Verdana;
+}
+
+.fandb-food-category ul {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+  left: 0;
+}
+.fandb-food-category {
+  padding: 0;
+}
+
+.fandb-food-category ul li button,
+.fandb-sorting {
+  margin-right: 0.35rem;
+  color: #181e40;
+  border: 1px solid #181e40;
+  box-shadow: 0 0 1px grey;
+  border-radius: 2px;
+  outline: none;
+  transition: 0.4s;
+}
+.fandb-sorting {
+  box-shadow: none;
+  margin-left: auto;
+}
+.fandb-food-category ul li button:hover {
+  background-color: #181e40;
+  color: white;
+}
+
+.fandb-add-new-food-item {
+  margin-left: auto;
+}
+
+.fandb-food-item-display {
+  height: 24.5rem;
+  overflow: hidden;
+  overflow-y: scroll;
+  border-top: 2px solid rgb(216, 126, 126);
+  padding-right: 0;
+}
+
+.fandb-food-item-display::-webkit-scrollbar {
+  background-color: #fffdfa;
+  width: 0.25rem;
+}
+.fandb-food-item-display::-webkit-scrollbar-thumb {
+  background-color: grey;
+  border-radius: 5px;
+  width: 0.24rem;
+}
+
+.fandb-food-items {
+  background-color: #fffbfa;
+  display: grid;
+  padding: 9px;
+  grid-template-columns: 33% 33% 33%;
+  gap: 0.5rem;
+}
+
+/* .food-items div{
+    border: 2px solid white;
+} */
+
+.fandb-title-description {
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: auto;
+}
+
+.fandb-food-item-button-container {
+  margin-bottom: auto;
+  height: auto;
+}
+
+.fandb-details {
+  display: flex;
+  align-items: center;
+  height: 39%;
+  margin-top: auto;
+  padding: 0;
+}
+
+.fandb-container {
+  background-color: #ffff;
+  height: 24rem;
+  /* border: 2px solid #ffff; */
+
+  border-radius: 1px;
+}
+
+.fandb-itemImage img {
+  width: 100%;
+  height: 10rem;
+  margin-top: 0.5rem;
+  align-items: center;
+  /* border: 2px solid #181E40; */
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 1px;
+  scale: 0.99;
+  transition: 0.3s ease;
+}
+.fandb-itemImage img:hover {
+  scale: 1;
+}
+
+.fandb-food-item-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.fandb-food-item-description {
+  font-size: 0.8rem;
+  color: grey;
+}
+
+.fandb-food-item-button-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.fandb-button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  vertical-align: middle;
+  height: auto;
+}
+
+.fandb-price {
+  float: right;
+  margin-left: auto;
+}
+
+.fandb-discountline {
+  margin-left: auto;
+  float: right;
+  margin-top: auto;
+  color: royalblue;
+}
+
+.fandb-form-popup {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  top: 4.5rem;
+  height: calc(100% - 3rem);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(24, 30, 64, 0.8);
+}
+
+.fandb-form-area {
+  border: 5px solid #181e40;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 30%;
+  background-color: rgba(24, 30, 64, 1);
+  scale: 0.8;
+  /* transform: scaleX(1.2); */
+}
+
+.fandb-form-exit-btn {
+  float: right;
+  border-radius: 5px;
+  border: none;
+}
+.fandb-form-exit-btn:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.label-fandb {
+  color: black;
+}
+
+@media screen and (max-width: 1000px) {
+  .fandb-food-items {
+    grid-template-columns: 50% 50%;
+  }
+  .fandb-form-area {
+    width: 38%;
+  }
+}
+@media screen and (max-width: 680px) {
+  .fandb-food-items {
+    grid-template-columns: 100%;
+  }
+  .fandb-food-category ul {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .fandb-form-area {
+    width: 55%;
+  }
+}
+
+.fandb-form div {
+  display: flex;
+  flex-direction: column;
+  margin: 0.4rem;
+}
+.fandb-form label {
+  color: white;
+}
+.fandb-form input {
+  color: #ffffff;
+  background-color: #182361;
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+}
+.fandb-form input::placeholder {
+  color: rgb(197, 195, 195);
+  font-size: 1rem;
+  text-align: center;
+  margin-left: 1rem;
+}
+.fandb-form input::placeholder ::before {
+  content: "Eg:";
+}
+form input:focus {
+  background-color: #2f41a8;
+  outline: none;
+}
+
+.fandb-price-div {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  gap: 4%;
+}
+/* input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+} */
+
+.fandb-body-right-title {
+  /* text-align: center; */
+  font-size: 1.5rem;
+  margin-top: -0.5rem;
+}
+
+.fandb-ticket-price {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  font-weight: 500;
+}
+
+.fandb-amount-display {
+  text-align: end;
+  font-weight: 500;
+}
+
+.fandb-theatrename-display {
+  /* text-align: center; */
+  margin-top: -1.4rem;
+  margin-left: 0.25rem;
+  opacity: 50%;
+  font-weight: 500;
+}
+
+/* .convenience-fee:hover {
+
+} */
+.fandb-convenience-fee {
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+
+.fandb-convenience-fee-icon {
+  transition: 0.3s ease;
+}
+
+.fandb-sub-convenience-fee {
+  /* font-weight: 300; */
+  /* display: none; */
+  font-size: 0.8rem;
+  color: grey;
+  transition: 0.3s ease-in;
+}
+
+/* .convenience-fee:hover p i{
+    transform: rotate(180deg);
+}
+.convenience-fee:hover .sub-convenience-fee{
+    display: block;
+} */
+
+.fandb-quantity {
+  margin-left: auto;
+  margin-right: 2rem;
+}
+.fandb-item-total-price {
+  float: right;
+}
+
+.fandb-addons {
+  max-height: 8rem;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.fandb-addons::-webkit-scrollbar {
+  background-color: #fffdfa;
+  width: 0.25rem;
+}
+.fandb-addons::-webkit-scrollbar-thumb {
+  background-color: grey;
+  border-radius: 5px;
+  width: 0.24rem;
+}
+.fandb-addons-ul {
+  text-decoration: none;
+  list-style: none;
+  margin-left: -4rem;
+}
+.fandb-addons-ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scale: 0.8;
+  font-weight: 600;
+  width: 110%;
+}
+
+.fandb-button {
+  border: none;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  scale: 0.8;
+  color: white;
+  font-weight: 800;
+  font-size: 1rem;
+  background-color: grey;
+}
+.fandb-inc-btn,
+.fandb-dec-btn {
+  text-align: center;
+}
+
+.fandb-subtotal {
+  margin-top: -1rem;
+}
+.fandb-subtotal,
+.fandb-addons-title {
+  font-weight: 500;
+}
+.fandb-subtotal-amount,
+.fandb-addons-title-price {
+  float: right;
+}
+
+.fandb-delete-popup {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 99;
+  background: rgba(24, 30, 64, 0.5);
+  width: 100%;
+  height: calc(100% - 3rem);
+  left: 0;
+  top: 3rem;
+}
+
+.fandb-delete-warning {
+  background-color: #fffdfa;
+  height: fit-content;
+  width: fit-content;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.fandb-delete-warning:first-child {
+  font-size: 1rem;
+  font-weight: 500;
+  color: red;
+}
+
+.fandb-delete-choice {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.fandb-delete-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.fandb-cancel-btn {
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: rgb(99, 162, 222);
+}
+
+.fandb-edit-popup-bg {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 99;
+  background: rgba(24, 30, 64, 0.2);
+  width: 100%;
+  height: calc(100% - 3rem);
+  left: 0;
+  top: 3rem;
+}
+.fandb-edit-popup-area {
+  background-color: #181e40;
+  padding: 1rem;
+  align-content: center;
+  height: fit-content;
+  border-radius: 0.5rem;
+  width: 22.5rem;
+}
+.fandb-edit-popup-area label {
+  color: white;
+  font-weight: 650;
+
+  margin-top: 1rem;
+}
+
+.fandb-Image-url {
+  width: 100%;
+  max-height: 2.5rem;
+  height: fit-content;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.fandb-Image-url::-webkit-scrollbar {
+  background-color: #fffdfa;
+  width: 0.25rem;
+}
+.fandb-Image-url::-webkit-scrollbar-thumb {
+  background-color: #2f41a8;
+  border-radius: 5px;
+  width: 0.24rem;
+}
+
+.fandb-edit-popup-area input {
+  background-color: #182361;
+  border: 2px solid rgba(128, 128, 128, 0.15);
+  color: rgb(211, 208, 208);
+  border-radius: 5px;
+  align-content: center;
+  width: 100%;
+  padding-left: 2px;
+  outline: none;
+}
+.fandb-edit-popup-area ::placeholder {
+  color: rgb(197, 195, 195);
+  font-size: 1rem;
+  text-align: center;
+  margin-left: 1rem;
+}
+
+.fandb-edit-popup-area :focus {
+  border: 2px solid #2f41a8;
+  background-color: #2f41a8;
+  outline: none;
+}
+
+.fandb-edit-popup-area div:last-child {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0.5rem;
+}
+
+.fandb-save-edit,
+.fandb-cancel-edit {
+  outline: none;
+  border: none;
+  background-color: rgb(88, 14, 103);
+  color: white;
+  border-radius: 0.25rem;
+  box-shadow: 1 1 5px grey;
+}
+
+.fandb-save-edit:hover,
+.fandb-cancel-edit:hover {
+  background-color: rgb(0, 115, 255);
+}
+
+.fandb-category-select {
+  outline: none;
+  border: none;
+}
+
+.fandb-category {
+  width: 100%;
+}
+
+.fandb-pay-btn-div {
+  width: 100%;
+  background-color: rgb(17, 186, 17);
+}
+.fandb-pay-btn-div button {
+  width: 100%;
+  color: white;
+  background-color: rgb(17, 186, 17);
+  border: none;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  padding: 0.05rem;
+}
+
+.fandb-input-errors {
+  font-size: 12px;
+  color: red;
+
+  margin-left: 12px;
+  display: grid;
+  grid-template-columns: 100% 100%;
+  gap: 0%;
+}

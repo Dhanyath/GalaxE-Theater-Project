@@ -1,0 +1,79 @@
+.main_container {
+  width: 35rem;
+  height: 30rem;
+  border: solid 1px black;
+  margin: auto;
+  margin-top: 5rem;
+  border-radius: 1rem;
+  background-color: rgb(51, 53, 69);
+  box-shadow: 0px 10px 20px rgb(5, 5, 5, 0.3);
+}
+#rows {
+  color: white;
+  margin-left: 13rem;
+}
+
+.container {
+  margin-top: 2rem;
+}
+.privilage {
+  display: flex;
+}
+.privilage_names {
+  margin-left: 5rem;
+  font-weight: bold;
+  margin-top: 1.7rem;
+  color: white;
+}
+.buttons {
+  margin-left: 3.9rem;
+  margin-top: 1.3rem;
+}
+.buttonss {
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
+.buttons1 {
+  margin-left: 3.5rem;
+  margin-top: 2.1rem;
+}
+.buttons1_1 {
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
+#plusandminusb {
+  background-color: #eb4e62;
+  border: none;
+  color: white;
+  border-radius: 3.188rem;
+  padding: 0.5rem;
+  width: 4rem;
+  font-size: 1.2rem;
+}
+.buttons2 {
+  margin-left: 4.5rem;
+  margin-top: 2.5rem;
+}
+.buttons2_1 {
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
+#savebtn {
+  background-color: #eb4e62;
+  border: none;
+  border-radius: 3.188rem;
+  padding: 0.5rem;
+  width: 7rem;
+  font-size: 1.2rem;
+  margin-top: 5rem;
+  color: white;
+}
+#heading {
+  color: white;
+}
+#count {
+  color: white;
+}
+.container-holder {
+  display: flex;
+}

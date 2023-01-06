@@ -1,0 +1,101 @@
+#adminview{
+  
+    height: 16rem;
+    width: 16rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    
+  }
+  #adminbtn{
+    margin-top: -5.5rem;
+    margin-right:5rem;
+    width:10rem;
+    background-color: white;
+    color:green;
+  
+  }
+  #adminbtn1{
+    margin-top: 1rem;
+    margin-left:60rem;
+    width:10rem;
+    background-color: white;
+    color:rgb(21, 100, 21);
+  
+  }
+  #formdiv{
+    color: rgb(16, 36, 54);
+    height: 31rem;
+    width: 47rem;
+    background-color:#333545;
+    /* align-items: center;
+    justify-content: center; */
+    border: black;
+    border-radius: 1rem;
+    margin-left: 15rem;
+    margin-top: 2rem;
+    display:flex;
+    justify-content: left;
+  }
+  #mDiv1{
+    margin-top: 3rem;
+    margin-left:-28.5rem;
+  }
+  #mDiv2{
+    margin-top: 0.75rem;
+    margin-left:-28.5rem;
+  }
+  #mmD1{
+    margin-left:2rem;
+  }
+   #txt{
+    font-size: 1.7rem;
+    color: #156d6d;
+    text-align: center; 
+    padding-left: 8rem;
+   margin-top: 5mm;
+   margin-bottom:5mm;
+   margin-left: 8rem;  
+  }
+  #adminview #btn1{
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  
+  #floatingInput{
+    height: 2.9rem;
+    width: 22rem;
+   
+  }
+  #floatingInput1,#floatingInput3,#floatingInput5,#floatingInput7
+  {
+    height:3.5rem;
+    width:15rem;
+    margin-left: 3rem;
+  }
+  #floatingInput2,#floatingInput4,#floatingInput6,#floatingInput8
+  {
+    width:15rem;
+    height:3.5rem
+    
+   
+  }
+  #floatingInput2{
+    margin-left:-6rem;
+  
+  }
+  #floatingInput4,#floatingInput6{
+    margin-left:4rem;
+  
+  }
+  #labelInput{
+    font-size: 0.8rem;
+    margin-left:3rem
+  }
+  
+  #btn1{
+     margin-left: 6rem;
+     width: 6rem;
+  }

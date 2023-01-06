@@ -1,0 +1,22 @@
+
+.main-Container-head{
+  position: fixed;
+}
+.main-Container-nav{
+  /* margin-top: 10rem; */
+  padding-top: 4.5rem;
+  /* position: fixed; */
+}
+.main-container{
+  display: flex;
+  flex-direction: column;
+}
+/* .delete-exact{
+  
+} */
+
+
+.Theaters{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}

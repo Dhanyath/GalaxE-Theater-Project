@@ -1,0 +1,148 @@
+.container_main {
+  /* height: 100vh; */
+  /* width: 100vw; */
+  background-color: #ffffff;
+}
+.main {
+  height: 30rem;
+  width: 23.5rem;
+  
+}
+
+.main1 {
+  /* background-color: rgb(243, 202, 152); */
+  border: 1px solid lightslategray;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 26rem;
+  width: 23.5rem;
+  position: absolute;
+  margin-top: 5rem;
+  /* left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%); */
+}
+.booking {
+  /* background-color: coral; */
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+  color: #cf606a;
+  size: 3rem;
+  width: 15rem;
+  letter-spacing: 3px;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+.summary {
+  margin-top: 1.6rem;
+  margin-left: 2rem;
+  width: 21rem;
+  height: 15rem;
+  /* background-color: yellow; */
+}
+
+.seat {
+  font-size: 0.9rem;
+  font-weight: 430;
+  /* width: 100rem; */
+  /* background-color: beige; */
+}
+.ticketqty {
+  font-size: 0.8rem;
+  font-weight: 430;
+}
+.ticketprice {
+  /* background-color: #cf606a; */
+  width: 5rem;
+  /* padding-left: 6rem; */
+}
+.theatername {
+  margin-left: 3rem;
+  color: #969696;
+  font-size: 0.8rem;
+  font-weight: 450;
+}
+.convenience {
+  margin-top: 1rem;
+  font-size: 0.84rem;
+  font-weight: 430;
+  /* background-color: rgb(169, 238, 132); */
+}
+.conveniencefee {
+  width: 5rem;
+  padding-left: 10.4rem;
+  font-size: 0.9rem;
+}
+.base {
+  margin-top: 0.5rem;
+  font-size: 10px;
+  margin-left: 1rem;
+  color: #969696;
+}
+.gst {
+  margin-top: 0.5rem;
+  font-size: 10px;
+  margin-left: 1rem;
+  color: #969696;
+}
+.base2 {
+  font-size: 10px;
+  margin-left: 13.2rem;
+}
+.gst2 {
+  font-size: 10px;
+  margin-left: 15.9rem;
+}
+.sub {
+  width: 21rem;
+  margin-top: 0.5rem;
+  border-top: 1px solid grey;
+  /* background: cornflowerblue; */
+}
+.subtotal {
+  font-size: 1rem;
+  font-weight: 430;
+}
+.subtotalprice {
+  font-size: 1rem;
+  font-weight: 430;
+  margin-left: 12.3rem;
+}
+
+.amount-btn {
+  margin-top: -2rem;
+  padding-top: 0.5rem;
+  height: 2.5rem;
+  width: 23.4rem;
+  background: #fffcdc;
+  display: flex;
+  justify-content: center;
+}
+.amountprice {
+  margin-left: 10rem;
+}
+.note {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  margin-left: 2rem;
+  color: #5b5b5b;
+}
+.buttonClass {
+  margin-top: 4rem;
+  color: white;
+  background-color: #f84464;
+  height: 2.8rem;
+  width: 23.5rem;
+  gap: 1rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  border-color: #f84464;
+  border-radius: 0.7rem;
+  -webkit-border-radius: 0.7rem;
+  -moz-border-radius: 0.7rem;
+  -ms-border-radius: 0.7rem;
+  -o-border-radius: 0.7rem;
+}

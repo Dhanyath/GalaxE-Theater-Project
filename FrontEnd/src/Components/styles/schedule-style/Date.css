@@ -1,0 +1,89 @@
+.date-main{
+    width: 20rem;
+    height: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    /* background-color: antiquewhite; */
+    position: fixed;    
+    display: flex;
+}
+.date-scroll{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+.date-icon{
+   /* background-color: aqua; */
+   height: 4rem;
+   font-size: 1.5rem;
+   color: #bababa;
+   /* width: 20rem; */
+}
+.date-scroll::-webkit-scrollbar{
+    display: none;
+}
+.date-box{
+    /* background-color:#f84464; */
+    color:black;
+    height: 3.5rem;
+    width:3.5rem ;
+    /* padding-left: 2rem; */
+    border-radius: 0.7rem;
+    -webkit-border-radius: 0.7rem;
+    -moz-border-radius: 0.7rem;
+    -ms-border-radius: 0.7rem;
+    -o-border-radius: 0.7rem;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    /* display:flex; */
+}
+.date-box1{
+    background-color:#f84464;
+    color:rgb(18, 3, 3);
+    height: 3.5rem;
+    width:3.5rem ;
+    /* padding-left: 2rem; */
+    border-radius: 0.7rem;
+    -webkit-border-radius: 0.7rem;
+    -moz-border-radius: 0.7rem;
+    -ms-border-radius: 0.7rem;
+    -o-border-radius: 0.7rem;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    /* display:flex; */
+}
+.date-datemain{
+    /* background-color: aquamarine; */
+    padding-left: 1rem;
+    
+}
+.active,.date-box:hover {
+    color:#f84464;
+    background-color:white;
+}
+
+.date-day{
+    font-size:0.6rem;
+    padding-top: 0.3rem;
+}
+.date-date1{
+    font-size:1rem;
+    /* top:; */
+}
+.date-month{
+    font-size:0.6rem;
+}
+
+#date_mod{
+    background-color: rgb(208, 230, 230);
+    width: 100%;
+    left: 0rem;
+    right:0rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+    top:17rem;
+    align-items: center;
+    position: absolute;
+}

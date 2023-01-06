@@ -1,0 +1,58 @@
+.container {
+  height: 120vh;
+  width: 100vw;
+  /* background-color:rgb(240, 220, 220); */
+  color: white;
+  /* position: fixed; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 5rem;
+  column-gap: 3rem;
+}
+
+.mainticket {
+  display: flex;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  height: 20rem;
+  width: 14.8rem;
+  background-color: rgb(127, 191, 255);
+  /* border: 1px solid black; */
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+  /* box-shadow:  0.2rem 0.2rem 0.5rem 0.5rem grey; */
+}
+
+img {
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+  height: 20rem;
+  width: 15rem;
+}
+
+.ticketdetails {
+  width: 15rem;
+  height: 4.6rem;
+  text-align: center;
+  background: #000;
+  margin-top: -1rem;
+  position: absolute;
+  border-bottom-left-radius: 0.8rem;
+  border-bottom-right-radius: 0.8rem;
+}
+.moviename {
+  color: #ffffff;
+}
+.movieduration {
+  color: #ffffff;
+}
+.moviegenre {
+  color: #ffffff;
+}

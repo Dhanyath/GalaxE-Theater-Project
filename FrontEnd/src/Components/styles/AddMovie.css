@@ -1,0 +1,243 @@
+.AddMovie-Main {
+  /* position: relative; */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .4);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  /* overflow-y: scroll; */
+}
+
+
+.Addmovie-App {
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #333545;
+  overflow-y: scroll;
+  /* overflow-x: hidden; */
+  width: 40rem;
+  height: 37.5rem;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  z-index: 1000;
+  position:fixed;
+}
+.Addmovie-App::-webkit-scrollbar {
+  display: none;
+}
+
+.Addmovie-addmovie {
+  width: 32rem;
+  height: 38rem;
+  /* background-color: #7d4eeb; */
+  background-color: #333545;
+}
+
+
+.Addmovie-Moviename {
+  align-items: center;
+  color: white;
+  /* padding-top: -5rem; */
+}
+.Addmovie-inputmovie {
+  width: 27.5rem;
+  height: 2rem;
+  border: 0.1rem solid black;
+  border-radius: 0.3rem;
+  font-weight: 600;
+  margin-left: 2.5rem;
+}
+/* .Addmovie-inputmovie1 {
+  width: 27.5rem;
+  height: 1.8rem;
+  border: 0.1rem solid black;
+  border-radius: 0.3rem;
+  font-weight: 600;
+  margin-left: 2.5rem;
+  margin-top: -42rem;
+} */
+
+#Addmovie-inputdescription{
+  width: 27.5rem;
+  height: 4rem;
+  border: 0.1rem solid black;
+  border-radius: 0.3rem;
+  font-weight: 600;
+  margin-left: 2.5rem;
+}
+
+
+.Addmovie-name {
+  font-size: 1rem;
+  font-weight: bolder;
+  color: white;
+  margin-left: 2.5rem;
+}
+
+.Addmovie-description{
+  font-size: 1rem;
+  font-weight: bolder;
+  color: white;
+  margin-left: 2.5rem;
+}
+
+
+#Addmovie-inputimage {
+  /* width: 27.5rem; */
+  height: 2rem;
+  border: 0.1rem solid black;
+  border-radius: 0.3rem;
+  font-weight: 600;
+  /* margin-left: 2.5rem; */
+}
+.Addmovie-link {
+  font-size: 1rem;
+  font-weight: bolder;
+  color: white;
+  /* margin-left: 2.5rem; */
+}
+
+
+#Addmovie-inputcast {
+  width: 28rem;
+  height: 2.1rem;
+  background-color: white;
+  border:  black;
+  border-radius: 0.3rem;
+  font-weight: 600;
+  margin-left: 2.5rem;
+}
+#Addmovie-castname {
+  font-size: 1rem;
+  font-weight: bolder;
+  color: white;
+  margin-left: 2.5rem;
+}
+
+
+#Addmovie-two {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#Addmovie-myLanguage {
+  width: 11rem;
+  height: 2.2rem;
+  border: 0.1rem solid black;
+  border-radius: 0.3rem;
+  font-weight: 600;
+}
+#Addmovie-Language {
+  font-size: 1rem;
+  font-weight: bolder;
+  color: white;
+}
+.moviecode{
+  font-size: 1rem;
+  font-weight: bolder;
+  color: white;
+}
+
+#Addmovie-myRatings {
+  width: 11rem;
+  height: 2.2rem;
+  border: 0.1rem solid black;
+  border-radius: 0.3rem;
+  font-weight: 600;
+}
+
+#Addmovie-Ratings {
+  /* padding-left: 3.5rem; */
+  font-size: 1rem;
+  font-weight: bolder;
+  color: white;
+}
+
+#Addmovie-mystatus {
+  width: 11rem;
+  height: 2.2rem;
+  border: 0.1rem solid black;
+  border-radius: 0.3rem;
+  font-weight: 600;
+}
+
+#Addmovie-status {
+  /* padding-left: 3.5rem; */
+  font-size: 1rem;
+  font-weight: bolder;
+  color: white;
+}
+
+
+#Addmovie-myRelease-Date {
+  width: 11rem;
+  height: 2.2rem;
+  border: 0.1rem solid black;
+  border-radius: 0.3rem;
+  font-weight: 600;
+}
+
+#Addmovie-Release-Date {
+  font-size: 1rem;
+  font-weight: bolder;
+  color: white;
+}
+
+#Addmovie-myDuration {
+  width: 11rem;
+  height: 2rem;
+  border: 0.1rem solid black;
+  border-radius: 0.3rem;
+  font-weight: 600;
+}
+#Addmovie-Duration {
+  /* padding-left: 3.5rem; */
+  font-size: 1rem;
+  font-weight: bolder;
+  color: white;
+}
+
+#Addmovie-cancelbtn {
+  margin-top: 1rem;
+  background-color: #eb4e62;
+  height: 2.5rem;
+  width: 10rem;
+  border-radius: 0.5rem;
+  color: white;
+  font-size: medium;
+  border: #eb4e62;
+}
+
+#Addmovie-addbtn {
+  margin-top: 1rem;
+  background-color: #eb4e62;
+  height: 2.5rem;
+  width: 10rem;
+  border-radius: 0.5rem;
+  color: white;
+  font-size: medium;
+  border: #eb4e62;
+}
+
+
+.addandcancel {
+  display: flex;
+  align-items: center;
+  /* margin-left: 4rem; */
+  justify-content: space-around;
+}
+.Addmovie-Moviebtn{
+  padding-bottom: 1rem;
+}

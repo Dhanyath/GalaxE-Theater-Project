@@ -1,0 +1,103 @@
+.main-poster {
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+.movieposter {
+  height: 20rem;
+  width: 14rem;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+  margin-right: 2.4rem;
+}
+
+.main-footer {
+  background-color: black;
+  color: white;
+  height: 2.3rem;
+  width: 14rem;
+  display: flex;
+  border-bottom-left-radius: 0.8rem;
+  border-bottom-right-radius: 0.8rem;
+  margin-top: -0.7rem;
+}
+
+.star {
+  color: red;
+  font-size: x-large;
+  margin-left: 0.4rem;
+  margin-top: 0.3rem;
+}
+.footer-content1 {
+  font-size: large;
+ margin-top: 0.7rem;
+  margin-left: 0.4rem;
+}
+
+
+.mapping-poster {
+  /* display:"grid",
+    gridTemplateColumns:"33fr 33fr 33fr"; */
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 540px) {
+  .mapping-poster {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+}
+
+.footer-moviename {
+  color: black;
+  margin-top: 1rem;
+}
+.moviename {
+  font-size: large;
+  margin-top: 2rem;
+  margin-right: 3rem;
+  display: flex;
+  justify-content: flex-start;
+}
+.certification {
+  font-size: large;
+  margin-right: 14rem;
+}
+.language {
+  font-size: large;
+  margin-right: 13rem;
+}
+
+.movieCardbuttons {
+  display: flex;
+  width: 14rem;
+
+  justify-content: space-between;
+}
+.mainCard-errorMessage {
+  /* margin-left: 30rem; */
+  width: 20rem;
+  /* background: #000; */
+  color: red;
+  /* justify-content: center; */
+  /* display: flex; */
+}
+
+#movieCardeditbtn {
+  height: 2.5rem;
+  width: 5.5rem;
+  border-radius: 1rem;
+  color: red;
+  border-color: red;
+  background-color: white;
+}
+
+#movieCarddeletebtn {
+  height: 2.5rem;
+  width: 5.5rem;
+  border-radius: 1rem;
+  color: red;
+  border-color: red;
+  background-color: white;
+}

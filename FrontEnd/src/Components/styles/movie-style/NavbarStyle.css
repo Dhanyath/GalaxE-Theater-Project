@@ -1,0 +1,200 @@
+.navbar-main {
+  background-color: #222539;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width:80rem; */
+}
+.navbar-title-input {
+  outline: none;
+}
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  /* display: none; */
+  -webkit-appearance: none;
+}
+.navbar-calender > h4 {
+  font-size: small;
+  padding-top: 0.2rem;
+  /* font-family: 'Times New Roman', Times, serif; */
+  font-weight: 500;
+}
+.navbar-calender {
+  padding-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+.navbar-right-arrow {
+  height: 20px;
+  padding-top: 0.2rem;
+  width: auto;
+}
+
+.navbar-date-input {
+  font-size: medium;
+  outline: none;
+  border: none;
+  width: 10rem;
+}
+.navbar-date-in {
+  outline: none;
+  border: none;
+  font-size: large;
+}
+.navbar-filter {
+  color: white;
+  padding-left: 3.5rem;
+}
+.navbar-filter > h2 {
+  font-weight: 500;
+  font-size: larger;
+}
+.navbar-title-search {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  border: 0.1rem solid black;
+  width: 28rem;
+  justify-content: space-between;
+  border-radius: 0.8rem;
+  padding-left: 0.65rem;
+  padding-right: 0.65rem;
+  padding-top: 0.65rem;
+  padding-bottom: 0.65rem;
+}
+.navbar-title-search {
+  align-items: center;
+}
+.navbar-title {
+  /* align-items: center; */
+  border: none;
+}
+.navbar-date {
+  margin-right: 4rem;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  padding-left: 0.65rem;
+  padding-right: 0.65rem;
+  padding-top: 0.65rem;
+  padding-bottom: 0.65rem;
+  height: 3rem;
+  width: 25rem;
+  border-radius: 0.8rem;
+  justify-content: space-between;
+  /* padding: 0.75rem; */
+}
+.navbar-search-button {
+  background-color: black;
+  border-radius: 0.8rem;
+  color: white;
+  border: none;
+  align-items: center;
+  padding: 0.5rem;
+  width: 10rem;
+}
+.navbar-title-input {
+  border: none;
+}
+.navbar-search-icon{
+    display: none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 830px) {
+  .navbar-main {
+    flex-direction: column;
+    align-content: center;
+    align-items: flex;
+    height: 12rem;
+    text-align: center;
+  }
+  .navbar-date {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 4rem;
+  }
+  .navbar-title-search {
+    margin-left: 1rem;
+  }
+  .navbar-filter {
+    margin-right: 2rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .navbar-main {
+    flex-direction: row;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .navbar-title-search {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+  .navbar-date {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    height: 1.5rem;
+    margin-bottom: 40px;
+  }
+  .navbar-search-button {
+    padding: 0.3rem;
+    width: 7rem;
+    border-radius: 0.8rem;
+  }
+  .navbar-main{
+    margin-left: 0rem;
+    height: 10rem;
+  }
+  
+}
+@media only screen and (max-width: 495px) {
+  .navbar-title-search {
+    padding-top: 0.15rem;
+    padding-bottom: 0.15rem;
+    width: 12rem;
+
+  }
+  .navbar-date {
+    padding-top: 0.1rem;
+    padding-bottom: 0.15rem;
+    height: 1.5rem;
+    width: 12rem;
+    /* margin-right: 1px; */
+  }
+  .navbar-search-button {
+    padding: 0.1rem;
+    width: 7rem;
+    border-radius: 0.8rem;
+    display: none;
+  }
+  .navbar-search-icon{
+    display: block;
+  }
+  .navbar-date-in {
+    outline: none;
+    border: none;
+    font-size: medium;
+    margin-left: -1rem;
+    padding-top: -1rem;
+
+  }
+  .navbar-title-search{
+    margin-left: 0;
+  }
+  .navbar-main{
+    height: 10rem;
+  }
+  .navbar-calender > h4 {
+    font-size: small;
+    padding-top: 0.1rem;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-weight: 450;
+    margin-left: -1rem;
+  }
+}

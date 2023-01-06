@@ -1,0 +1,583 @@
+.bodymain{
+    width:100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 7px;
+    margin-top: 7px;
+    padding: 7px;
+    padding-right: 0.8rem;
+    margin-top: 3rem;
+    position: inherit;
+    background-color: #FFFDFA;
+    
+}
+
+
+
+.body-left{
+    height: auto;
+    padding: 7px;
+    background-color: white;
+    border: 5px solid white ;
+    box-shadow: 0 0 2px grey;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.body-right{
+    height: fit-content;
+    padding: 7px;
+    background-color: #ffff;
+    border: 5px solid white ;
+    box-shadow: 0 0 2px grey;
+    border-radius: 3px  ;
+    width: 22rem;
+}
+
+.adcard-display img{
+    height: 6rem;
+    width: 100%;
+    border: 5px solid white ;
+    box-shadow: 0 0 2px grey;
+}
+
+.title-bar{
+    display: none;
+    height: 5rem;
+    text-align: center;
+    font-family:Verdana;
+}
+.title-bar p{
+    font-weight: 500;
+    font-family:Verdana;
+}
+
+
+
+.food-category ul{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    left: 0;
+}
+.food-category{
+    padding: 0;
+}
+
+
+
+.food-category ul li button{
+    margin-right: 0.35rem;
+    color: #181e40;
+    border: 2px solid white ;
+    box-shadow: 0 0 1px grey;
+    border-radius: 2px;
+    outline: none;
+    transition: 0.4s;
+}
+.food-category ul li button:hover{
+    background-color: #181E40;
+    color: white;
+}
+
+.add-new-food-item{
+    margin-left: auto;
+}
+
+
+
+.food-item-display{
+    height: 24.5rem;
+    overflow: hidden;
+    overflow-y: scroll;
+    border-top: 2px solid rgb(216, 126, 126);
+    padding-right: 0;
+}
+
+.food-item-display::-webkit-scrollbar{
+    background-color: #FFFDFA;
+    width: 0.25rem;
+}
+.food-item-display::-webkit-scrollbar-thumb{
+    background-color: grey;
+    border-radius: 5px;
+    width: 0.24rem;
+}
+
+
+.food-items{
+    background-color: #0a0702;
+    display: grid;
+    padding: 9px;
+    grid-template-columns: 33% 33% 33% ; 
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    gap: 0.5rem;
+}
+
+
+
+
+/* .food-items div{
+    border: 2px solid white;
+} */
+
+.title-description{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: auto;
+}
+
+.food-item-button-container{
+    margin-bottom: auto;
+    height: auto;
+    
+}
+
+
+.details{
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    margin-top: auto;
+    padding: 0;
+}
+
+.container{
+    background-color: #ffff;
+    height: 20rem;
+    border: 2px solid #ffff;
+    box-shadow: 0 0 3px grey;
+    border-radius: 3px;
+}
+
+.itemImage img{
+    width: 100%;
+    height: 10rem;
+    margin-top: 0.5rem;
+    align-items: center;
+    
+    border-radius: 3px white; 
+    scale: 0.99;
+    transition: 0.3s ease;
+}
+.itemImage img:hover{
+    scale: 1;
+}
+            
+.food-item-title{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.food-item-description{
+    font-size: 0.8rem;
+    color: grey;
+}
+
+.food-item-button-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    vertical-align: middle;
+    height: auto;
+}
+
+
+
+.price{
+    float: right;
+    margin-left: auto;
+}
+
+.discountline{
+    margin-left: auto;
+    float: right;
+    margin-top: auto;
+    color: royalblue;
+}
+
+.form-popup{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 98;
+    height: calc(100% - 3rem);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    background: rgba(24, 30, 64, 0.8);
+}
+
+.form-area{
+    border: 5px solid #181E40;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 30%;
+    background-color:rgba(24, 30, 64, 1);
+}
+
+.form-exit-btn{
+    float: right;
+    border-radius: 5px;
+    border: none;
+}
+.form-exit-btn:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+label{
+    color: black;
+}
+
+
+
+@media screen and (max-width:1000px) {
+    .food-items{
+        grid-template-columns: 50% 50% ; 
+    }
+    .form-area{
+        width: 38%;
+    }
+    
+}
+@media screen and (max-width:680px) {
+    .food-items{
+        grid-template-columns: 100% ; 
+    }
+    .food-category ul{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .form-area{
+        width: 55%;
+    }
+
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    margin: 0.40rem;
+}
+form label{
+    color: white;
+}
+form input{
+    color: #ffffff;
+    background-color: #182361;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+}
+form input::placeholder{
+    color: rgb(197, 195, 195);
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 1rem;
+}
+form input:focus{
+    background-color: #2f41a8;
+    outline: none;
+}
+
+
+
+.price-div{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    gap: 4%;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.body-right-title{
+    /* text-align: center; */
+    font-size: 1.5rem;
+    margin-top: -0.5rem;
+}
+
+.ticket-price{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    font-weight: 500;
+}
+
+.amount-display{
+    text-align: end;
+    font-weight: 500;
+}
+
+.theatrename-display{
+    /* text-align: center; */
+    margin-top: -1.4rem;
+    margin-left: 0.25rem;
+    opacity: 50%;
+    font-weight: 500;
+}
+
+/* .convenience-fee:hover {
+
+} */
+.convenience-fee{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.convenience-fee-icon{
+    transition: 0.3s ease;
+}
+
+.sub-convenience-fee{
+    /* font-weight: 300; */
+    /* display: none; */
+    font-size: 0.8rem;
+    color: grey;
+    transition: 0.3s ease-in;
+}
+
+/* .convenience-fee:hover p i{
+    transform: rotate(180deg);
+}
+.convenience-fee:hover .sub-convenience-fee{
+    display: block;
+} */
+
+
+.quantity{
+    margin-left: auto;
+    margin-right: 2rem;
+}
+.item-total-price{
+    float: right;
+}
+
+.addons{
+    max-height: 8rem;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.addons::-webkit-scrollbar{
+    background-color: #FFFDFA;
+    width: 0.25rem;
+}
+.addons::-webkit-scrollbar-thumb{
+    background-color: grey;
+    border-radius: 5px;
+    width: 0.24rem;
+}
+.addons-ul{
+    text-decoration: none;
+    list-style: none;
+    margin-left: -4rem;
+}
+.addons-ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scale: 0.8;
+    font-weight: 600;
+    width: 110%;
+}
+
+.button{
+    border: none;
+    width: 2rem;
+    height: 2rem;
+    border-radius:50%;
+    scale: 0.8;
+    color: white;
+    font-weight: 800;
+    font-size: 1rem;
+    background-color: grey;
+}
+.inc-btn, .dec-btn{
+    text-align: center;
+}
+
+.subtotal{
+    margin-top: -1rem;
+}
+.subtotal, .addons-title{
+    font-weight: 500;
+}
+.subtotal-amount, .addons-title-price{
+    float: right;
+}
+
+
+.delete-popup{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 99;
+    background: rgba(24,30, 64,0.5);
+    width: 100%;
+    height: calc(100% - 3rem);
+    left: 0;
+    top: 3rem;
+}
+
+.delete-warning{
+    background-color: #FFFDFA;
+    height: fit-content;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.delete-warning:first-child{
+    font-size: 1rem;
+    font-weight: 500;
+    color: red;
+}
+
+.delete-choice{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.delete-btn{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.cancel-btn{
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(99, 162, 222);
+}
+
+
+.edit-popup-bg{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 99;
+    background: rgba(24, 30, 64,0.2);
+    width: 100%;
+    height: calc(100% - 3rem);
+    left: 0;
+    top: 3rem;
+}
+.edit-popup-area{
+    background-color: #FFFDFA;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 25rem;
+}
+.edit-popup-area label{
+    color: black;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
+.Image-url{
+    width: 100%;
+    max-height: 2.5rem;
+    height: fit-content;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.Image-url::-webkit-scrollbar{
+    background-color: #FFFDFA;
+    width: 0.25rem;
+}
+.Image-url::-webkit-scrollbar-thumb{
+    background-color: grey;
+    border-radius: 5px;
+    width: 0.24rem;
+}
+
+.edit-popup-area input{
+    background-color: rgba(128,128,128,0.15);
+    border: 2px solid rgba(128,128,128,0.15);
+    border-radius: 0.15rem;
+    padding-left: 0.25rem;
+    outline: none;
+    color: black;
+}
+
+.edit-popup-area div:focus{
+    border: 2px solid rgba(128,128,128,0.5);
+}
+
+.edit-popup-area div:last-child{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+}
+
+.save-edit, .cancel-edit{
+    outline: none;
+    border: none;
+    background-color:orange ;
+    color: white;
+    border-radius: 0.25rem;
+    box-shadow: 1 1 5px grey;
+}
+
+.save-edit:hover, .cancel-edit:hover{
+    background-color: red;
+}
+
+.category-select{
+    outline: none;
+    border: none;
+}
+
+.category{
+    width: 100%;
+}
+
+.pay-btn-div{
+    width: 100%;
+}
+.pay-btn-div button{
+    width: 110%;
+    color: white;
+    background-color: rgb(17, 186, 17);
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1.75rem;
+    padding: 0.05rem;
+}
+
+.body-right-footer{
+    position: absolute;
+    margin-top:1rem;
+}
+
+.sorting{
+    margin-left: auto;
+    background-color: rgb(234, 234, 234);
+    padding: 3px;
+    box-shadow: 0 0 1px grey;
+    border: 2px solid white;
+}
+
+.sorting select option{
+    background-color: rgb(234, 234, 234);
+}
+.sorting select{
+    outline: none;
+    border: none;
+    background-color: rgb(234,234,234);
+}

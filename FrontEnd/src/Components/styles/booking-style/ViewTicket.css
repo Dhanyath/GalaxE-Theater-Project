@@ -1,0 +1,33 @@
+.view_ticket_main_container {
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+}
+
+.view_ticket_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.proceedButton {
+    height: 2rem;
+  width: 10rem;
+  border-radius: 0.5rem;
+  border: 0.01rem solid black;
+  background-color: #f84464;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .view_ticket_main {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

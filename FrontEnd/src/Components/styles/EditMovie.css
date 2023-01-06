@@ -1,0 +1,478 @@
+
+.editMovie-main{
+  width: 100vw; 
+  height: 100vh;
+  display: flex;
+  align-items: center;    
+  justify-content: center;
+  /* position: relative; */
+
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom:0;
+  background-color:  rgba(0,0,0,.4);
+  z-index: 1000;
+}
+.editMovie-form{
+  width: 38rem;
+  height: 38rem;
+  background-color: #333545;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  border-radius: 1rem;
+  
+  
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  z-index: 1000;
+  position: fixed;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+
+.editMovie-innerDiv{
+  width: 32rem;
+  height: 35rem;
+  /* background-color: blue; */
+  border: #333545;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  
+}
+.editMovie-innerDiv::-webkit-scrollbar{
+  display: none;
+}
+
+
+.editMovie-movieName{
+  /* background-color: aqua; */
+  padding-left: 2.3rem;
+}
+
+
+.editMovie-label-group-name{
+  /* padding-left: 2.5rem; */
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: left;
+}
+
+
+#editMovie-inputField-group-name{
+  width: 27rem;
+  height: 1.8rem;
+  border: 0.1rem solid black;
+  border-radius: 0.3rem;
+  font-weight: 600;
+}
+
+.editMovie-field-code-status{
+  display: flex;
+  justify-content: space-around;
+  /* background-color: antiquewhite; */
+}
+
+.editMovie-label-group-code{
+  /* background-color: #333545; */
+  text-align: left;
+  font-size: 0.9rem;
+  font-weight:500;
+}
+
+#editMovie-inputField-group-code{
+  width: 11rem;
+  height: 2.2rem;
+  border: 0.1rem solid black;
+  border-radius: 0.3rem;
+  font-weight: 600;
+}
+
+.editMovie-label-group-status{
+  text-align: left;
+  font-size: 0.9rem;
+  font-weight:500;
+}
+
+#editMovie-inputField-group-status{
+  width: 11rem;
+  height: 2.2rem;
+  border: 0.1rem solid black;
+  border-radius: 0.3rem;
+  font-weight: 600;
+  /* margin-top: 0.25rem; */
+}
+
+.editMovie-field-language-genre{
+  display: flex;
+  justify-content: space-around;
+}
+
+.editMovie-label-group-language{
+  text-align: left;
+  font-size: 0.9rem;
+  font-weight:500;
+}
+
+#editMovie-inputField-group-language{
+  width: 11rem;
+  height: 2.2rem;
+  border: 0.1rem solid black;
+  border-radius: 0.3rem;
+  font-weight: 600;
+}
+
+.editMovie-label-group-genre{
+  text-align: left;
+  font-size: 0.9rem;
+  font-weight:500;
+}
+
+#editMovie-inputField-group-genre{
+  width: 11rem;
+  height: 2.2rem;
+  border: 0.1rem solid black;
+  border-radius: 0.3rem;
+  font-weight: 600;
+  -webkit-border-radius:0.3rem;
+  -moz-border-radius:0.3rem;
+  -ms-border-radius:0.3rem;
+  -o-border-radius:0.3rem;
+}
+
+.editMovie-field-date-duration{
+  display: flex;
+  justify-content: space-around;
+}
+
+.editMovie-label-group-date{
+  text-align: left;
+  font-size: 0.9rem;
+  font-weight:500;
+}
+
+#editMovie-inputField-group-date{
+  width: 11rem;
+  height: 1.8rem;
+  border: 0.1rem solid black;
+  border-radius: 0.3rem;
+  font-weight: 600;
+  -webkit-border-radius:0.3rem;
+  -moz-border-radius:0.3rem;
+  -ms-border-radius:0.3rem;
+  -o-border-radius:0.3rem;
+}
+
+.editMovie-label-group-duration{
+  text-align: left;
+  font-size: 0.9rem;
+  font-weight:500;
+}
+
+#editMovie-inputField-group-duration{
+  width: 11rem;
+  height: 1.8rem;
+  border: 0.1rem solid black;
+  border-radius: 0.3rem;
+  font-weight: 600;
+  -webkit-border-radius:0.3rem;
+  -moz-border-radius:0.3rem;
+  -ms-border-radius:0.3rem;
+  -o-border-radius:0.3rem;
+}
+
+.editMovie-field-image-ratings{
+  display: flex;
+  justify-content: space-around;
+}
+
+.editMovie-label-group-image{
+  text-align: left;
+  font-size: 0.9rem;
+  font-weight:500;
+}
+
+#editMovie-inputField-group-image{
+  width: 11rem;
+  height: 1.8rem;
+  border: 0.1rem solid black;
+  border-radius: 0.3rem;
+  font-weight: 600;
+  -webkit-border-radius:0.3rem;
+  -moz-border-radius:0.3rem;
+  -ms-border-radius:0.3rem;
+  -o-border-radius:0.3rem;
+}
+
+.editMovie-label-group-ratings{
+  text-align: left;
+  font-size: 0.9rem;
+  font-weight:500;
+}
+
+#editMovie-inputField-group-ratings{
+  width: 11rem;
+  height: 1.8rem;
+  border: 0.1rem solid black;
+  border-radius: 0.3rem;
+  font-weight: 600;
+  -webkit-border-radius:0.3rem;
+  -moz-border-radius:0.3rem;
+  -ms-border-radius:0.3rem;
+  -o-border-radius:0.3rem;
+}
+
+.editMovie-label-group-cast{
+  padding-left: 2.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: left;
+}
+
+.editMovie-buttons-save-cancel{
+  display: flex;
+  justify-content: space-around;
+}
+
+#editMovie-save{
+  width: 11rem;
+  height: 2rem;
+  background-color: #eb4e62;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+#editMovie-cancel{
+  width: 11rem;
+  height: 2rem;
+  background-color: #eb4e62;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+.editMovie-field-cast{
+  display: flex;
+  justify-content: space-around;
+}
+#editMovie-multiSelect{
+  width: 27.2rem;
+  border: 0.1rem solid black;
+  border-radius: 0.3rem;
+  background-color: white;
+ color: black;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
+} 
+
+.editMovie-label-group-description{
+  text-align: left;
+  font-size: 0.9rem;
+  font-weight:500;
+  padding-left: 2.5rem;
+}    
+
+#editMovie-inputField-group-description{
+  width: 26.5rem;
+  height: 3rem;
+  border: 0.1rem solid black;
+  border-radius: 0.3rem;
+  font-weight: 600;
+  -webkit-border-radius:0.3rem;
+  -moz-border-radius:0.3rem;
+  -ms-border-radius:0.3rem;
+  -o-border-radius:0.3rem;
+}
+
+  /* ----------Media query---------- */
+
+@media only screen and (max-width:670px){
+  .editMovie-form{
+      width: 30rem;
+      height: 40rem;
+      overflow-y: scroll;
+  }
+
+
+  .editMovie-innerDiv{
+      width: 25rem;
+      height: 38rem;
+  }
+
+
+  .editMovie-field-code-status{
+      width: 25rem;
+      flex-direction: column;
+      display: flex;
+      justify-content: space-around;
+      /* background-color:aliceblue; */
+  }
+
+
+  .editMovie-field-language-genre{
+      width: 25rem;
+      flex-direction: column;
+      display: flex;
+      justify-content: space-around;
+  }
+
+
+  .editMovie-field-date-duration{
+      width: 25rem;
+      flex-direction: column;
+      display: flex;
+      justify-content: space-around;
+  }
+
+
+  .editMovie-field-image-ratings{
+      width: 25rem;
+      flex-direction: column;
+      display: flex;
+      justify-content: space-around;
+  }
+
+
+  .editMovie-label-group-code{
+      width: 25rem;
+      padding-left: 2.5rem;
+  }
+
+
+  .editMovie-label-group-status{
+      width: 25rem;
+      padding-left: 2.5rem;
+  }
+
+
+  .editMovie-label-group-language{
+      width: 25rem;
+      padding-left: 2.5rem;
+  }
+
+
+  .editMovie-label-group-genre{
+      width: 25rem;
+      padding-left: 2.5rem;
+  }
+
+
+  .editMovie-label-group-date{
+      width: 25rem;
+      padding-left: 2.5rem;
+  }
+
+
+  .editMovie-label-group-duration{
+      width: 25rem;
+      padding-left: 2.5rem;
+  }
+
+
+  .editMovie-label-group-image{
+      width: 25rem;
+      padding-left: 2.5rem;
+  }
+
+
+  .editMovie-label-group-ratings{
+      width: 25rem;
+      padding-left: 2.5rem;
+  }
+
+
+  .editMovie-label-group-description{
+      width: 25rem;
+      padding-left: 2.5rem;
+  }
+
+
+  #editMovie-inputField-group-name{
+      width: 19.8rem;
+  }
+
+
+  #editMovie-inputField-group-code{
+      width: 19.8rem;
+  } 
+
+
+  #editMovie-inputField-group-status{
+      width: 19.8rem;
+  }
+  
+
+  #editMovie-inputField-group-language{
+      width: 19.8rem;
+  } 
+
+
+  #editMovie-inputField-group-genre{
+      width: 19.8rem;
+  } 
+  #editMovie-inputField-group-date{
+      width: 19.8rem;
+  } 
+
+
+  #editMovie-inputField-group-duration{
+      width: 19.8rem;
+  } 
+
+
+  #editMovie-inputField-group-image{
+      width: 19.8rem;
+  }
+  
+  
+  #editMovie-inputField-group-ratings{
+      width: 19.8rem;
+  } 
+
+
+  #editMovie-multiSelect{
+      width: 19.8rem;
+  } 
+
+  
+  #editMovie-inputField-group-description{
+      width: 19.8rem;
+  } 
+
+  #editMovie-save{
+      width: 7.5rem;
+  }
+
+
+  #editMovie-cancel{
+      width: 7.5rem;
+  }
+
+} 

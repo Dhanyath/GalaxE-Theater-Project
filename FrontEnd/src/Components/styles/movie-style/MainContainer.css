@@ -1,0 +1,15 @@
+.mainContainer{
+    padding-left: 2rem;
+}
+
+.mainContainer-card{
+    height: 20rem;
+    width: 10rem;
+    color: white;
+    background-color: black;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
